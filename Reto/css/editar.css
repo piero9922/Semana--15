@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  padding-left: 20px;
+  background-color: #ff5252;
+  height: 4rem;
+}
+
+.title h1 {
+  padding-top: 12px;
+  margin: 0;
+}
+
+.edit {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.edit h2 {
+  width: x;
+  border-bottom: 1px solid #333333;
+}
+
+.formulario input {
+  width: 15rem;
+  height: 1.5rem;
+  outline: none;
+  padding-left: 10px;
+}
+
+.formulario .text {
+  margin-top: 15px;
+}
+
+.formulario textarea {
+  resize: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formulario .botones {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.botones button {
+  width: 6rem;
+  height: 2rem;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+button[type='submit'] {
+  background-color: #ff5252;
+  color: #ffffff;
+}
